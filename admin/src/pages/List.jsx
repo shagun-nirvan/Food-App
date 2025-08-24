@@ -46,7 +46,7 @@ const List = ({url}) => {
         </div>
         {list.map((item,index)=>(
           <div key={index} className='grid grid-cols-[0.5fr_2fr_1fr_1fr_0.5fr] items-center gap-[10px] py-[12px] px-[15px] border-[1px] border-solid border-[#cacaca] text-[13px] max-w-[600px]:grid-col-[1fr_3fr_1fr] max-w-[600px]:gap-[15px]  '>
-            <img className='w-[50px]' src={`${url}/images/` +item.image} alt="" />
+            <img className='w-[50px]' src={item.image} alt="" />
             <p>{item.name}</p>
             <p>{item.category}</p>
             <p>₹{item.price}</p>

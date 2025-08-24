@@ -26,7 +26,7 @@ const Cart = () => {
             return (
               <div>
                 <div className="grid grid-cols-[1fr_1.5fr_1fr_1fr_1fr_0.5fr] items-center text-[max(1vw,12px)] my-10px mx-0px text-black p-[9px]">
-                  <img className='w-[50px]' src={url+"/images/"+item.image} alt="" />
+                  <img className='w-[50px]' src={item.image} alt="" />
                   <p>{item.name}</p>
                   <p>₹{item.price}</p>
                   <p>{cartItems[item._id]}</p>

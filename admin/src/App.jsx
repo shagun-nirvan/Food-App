@@ -10,7 +10,7 @@ import List from './pages/List'
 
 const App = () => {
 
-  const url = "http://localhost:4000"
+  const url = import.meta.env.VITE_BACKEND_URL;
 
   return (
     <div >
