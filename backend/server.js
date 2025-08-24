@@ -13,7 +13,7 @@ import cloudinary from "./config/cloudinary.js"
 
 //app config
 const app = express()
-const port = process.env.PORT || 4000
+const port = process.env.VITE_BACKEND_URL || 4000
 
 
 //middleware
