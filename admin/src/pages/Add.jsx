@@ -50,7 +50,7 @@ const [category, setCategory] = useState('Salad')
   };
   return (
     <div className='w-[70%] ml-[max(5vw,25px)] mt-[50px] text-[#6d6d6d] text-[16px]'>
-      <form onSubmit={onSubmitHandler} className='gap-[20px] flex flex-col gap-[10px]'>
+      <form onSubmit={onSubmitHandler} className='gap-y-[20px] flex flex-col gap-x-[10px]'>
         <div className='add-img-upload flex flex-col gap-[10px]'>
           <p className='text-3xl'>Upload Image</p>
           <label htmlFor="image">
